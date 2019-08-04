@@ -1,0 +1,6 @@
+root
+admin
+username
+jamfsoftware
+admin@example.com
+superdba

@@ -1,0 +1,14 @@
+admin
+apc
+cisco
+default
+letmein
+manager
+none
+pass
+password
+root
+security
+sys
+system
+user

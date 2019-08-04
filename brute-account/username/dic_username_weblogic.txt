@@ -1,0 +1,10 @@
+weblogic
+WebLogic
+system
+admin
+joe
+mary
+wlcsystem
+wlpisystem
+portaladmin
+guest
