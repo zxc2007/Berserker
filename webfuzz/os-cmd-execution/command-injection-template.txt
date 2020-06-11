@@ -6,7 +6,7 @@
 <{cmd}
 <{cmd};
 <{cmd}\n
-<{cmd}%0D
+<{cmd}%0D   
 <{cmd}%0A
 &{cmd}
 &{cmd}&
