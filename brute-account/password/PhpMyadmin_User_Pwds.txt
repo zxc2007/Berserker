@@ -265,3 +265,5 @@ admin	123456
 admin	Aa123456.
 admin	root
 admin	Root1
+pma		pma
+pma		
