@@ -1,3 +1,0 @@
-superman:talent
-superman:password
-super:talent123

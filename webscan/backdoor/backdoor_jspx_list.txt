@@ -1,5 +1,0 @@
-cmd.jspx
-Ends.jspx
-jspspy.jspx
-jspx.jspx
-paxmac.jspx

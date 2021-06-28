@@ -1,7 +1,0 @@
-version()
-user()
-@@hostname
-@@basedir
-@@datadir
-database()
-

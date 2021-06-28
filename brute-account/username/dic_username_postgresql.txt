@@ -1,9 +1,0 @@
-postgres
-test
-admin
-web
-scott
-viewuser
-PostgreSQL
-whd
-
